@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.contenedor{
+    margin-top: 100px;
+    display: flex;
+    background-color: rgb(165, 83, 42);
+    padding: 25px;
+    color: white;
+    height: 60vh;
+    
+}
+.texto{
+    padding-left: 25px;
+    padding-right: 12px;
+    text-align: justify;
+}
+#contenedor .img{
+    width: 20%;
+    max-width: 500px;
+}
+.video{
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.video::after{
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.esdacode_video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
